@@ -5,6 +5,7 @@ import Header from "./components/header";
 import Quote from "./components/quote";
 import Principles from "./components/principles";
 import About from "./components/about";
+import Skills from "./components/skills";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Quote></Quote>
         <Principles></Principles>
         <About></About>
+        <Skills></Skills>
       </Main>
     </>
   );
