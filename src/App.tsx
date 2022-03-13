@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Quote from "./components/quote";
+import Principles from "./components/principles";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar></Navbar>
         <Header></Header>
         <Quote></Quote>
+        <Principles></Principles>
       </Main>
     </>
   );
