@@ -1,5 +1,5 @@
 import * as style from "./styles";
-import Container from "../Container";
+import Container from "../container";
 
 const Navbar = () => {
   return (

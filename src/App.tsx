@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Navbar from "../src/components/Navbar";
+import Navbar from "./components/navbar";
 import Header from "./components/header";
 
 function App() {

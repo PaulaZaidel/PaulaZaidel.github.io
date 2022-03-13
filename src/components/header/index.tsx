@@ -1,7 +1,7 @@
 import * as style from "./styles";
 import { Fade } from "react-awesome-reveal";
 
-import Container from "../Container";
+import Container from "../container";
 
 const Header = () => {
   return (
