@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import Navbar from "./components/navbar";
 import Header from "./components/header";
+import Quote from "./components/quote";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Main>
         <Navbar></Navbar>
         <Header></Header>
+        <Quote></Quote>
       </Main>
     </>
   );
