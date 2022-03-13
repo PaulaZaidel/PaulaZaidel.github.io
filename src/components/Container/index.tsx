@@ -28,7 +28,7 @@ const ContainerStyle = styled.div`
 `;
 
 const Div = styled.div<ContainerProps>`
-  color: ${(props) => (props.bg === "black" ? "white" : props.bg)};
+  color: ${(props) => (props.bg === "black" ? "white" : "black")};
   background-color: ${(props) => props.bg};
 
   width: "100vw",
