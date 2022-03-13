@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Quote from "./components/quote";
 import Principles from "./components/principles";
+import About from "./components/about";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header></Header>
         <Quote></Quote>
         <Principles></Principles>
+        <About></About>
       </Main>
     </>
   );
