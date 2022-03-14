@@ -35,6 +35,7 @@ export const Main = styled.div`
       }
     }
     p {
+      text-align: justify;
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
@@ -75,4 +76,9 @@ export const Main = styled.div`
       width: 80%;
     }
   }
+`;
+
+export const MainSe = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
