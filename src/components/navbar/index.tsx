@@ -1,20 +1,19 @@
 import * as style from "./styles";
-import Container from "../container";
 
 const Navbar = () => {
   return (
-    <Container bg="black">
-      <style.Navbar>
-        <div role="button" className="name" tabIndex={0}>
-          paulazaidel.dev
-        </div>
-        <div className="links-wrapper">
-          <button>Work</button>
-          <button>Sobre</button>
-          <button>Contato</button>
-        </div>
-      </style.Navbar>
-    </Container>
+    <style.Navigation>
+      <li className="logo">paulazaidel.dev</li>
+      <li>
+        <a href="#">Sobre</a>
+      </li>
+      <li>
+        <a href="#">Skills</a>
+      </li>
+      <li>
+        <a href="#">Contato</a>
+      </li>
+    </style.Navigation>
   );
 };
 
