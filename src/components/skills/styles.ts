@@ -16,11 +16,6 @@ export const Grid = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 
-  h1 {
-    font-size: 3rem;
-    line-height: 20px;
-  }
-
   .skill {
     display: flex;
     flex-direction: column;
@@ -33,4 +28,10 @@ export const Grid = styled.div`
       font-size: 14px;
     }
   }
+`;
+
+export const Header = styled.div`
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 20px;
 `;

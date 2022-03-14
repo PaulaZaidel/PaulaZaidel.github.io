@@ -1,5 +1,6 @@
 import React from "react";
 import * as style from "./styles";
+import { Fade } from "react-awesome-reveal";
 
 import Container from "../container";
 
@@ -9,8 +10,11 @@ import desktopIcon from "../../images/desktop.svg";
 const Skills = () => {
   return (
     <Container>
-      <h1>Skills</h1>
-
+      <style.Header>
+        <Fade direction="up" cascade>
+          <h1>Skills</h1>
+        </Fade>
+      </style.Header>
       <style.Grid>
         <div className="skill">
           <img src={desktopIcon} alt="css"></img>
