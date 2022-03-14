@@ -6,6 +6,7 @@ import Quote from "./components/quote";
 import Principles from "./components/principles";
 import About from "./components/about";
 import Skills from "./components/skills";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Principles></Principles>
         <About></About>
         <Skills></Skills>
+        <Footer></Footer>
       </Main>
     </>
   );
