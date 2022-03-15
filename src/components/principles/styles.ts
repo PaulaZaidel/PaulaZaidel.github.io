@@ -3,28 +3,31 @@ import styled from "styled-components";
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 10vh 30vh;
-  grid-gap: 50px;
-  @include media(">=phone", "<lgphone") {
+  grid-gap: 30px;
+
+  @media all and (max-width: 600px) {
     grid-template-columns: 1fr;
   }
-  @include media(">=lgphone", "<tablet") {
-    grid-template-columns: 1fr;
+`;
+
+export const Item = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    height: 3rem;
   }
-  @include media(">=tablet", "<desktop") {
-    grid-template-columns: 1fr 1fr;
+
+  p {
+    width: 70%;
+    font-size: 14px;
   }
-  .principle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    img {
-      height: 3rem;
-    }
+
+  @media all and (max-width: 600px) {
     p {
-      font-size: 14px;
+      width: 100%;
     }
-  }
   }
 `;

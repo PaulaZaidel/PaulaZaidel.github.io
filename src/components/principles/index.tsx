@@ -9,15 +9,15 @@ const Principles = () => {
   return (
     <Container>
       <style.Grid>
-        <div className="principle">
+        <style.Item>
           <img src={missionIcon} alt="css"></img>
           <h2>Missão</h2>
           <p>
             Ajudar pessoas e empresas entregando soluções através da tecnologia
             e conhecimento.
           </p>
-        </div>
-        <div className="principle">
+        </style.Item>
+        <style.Item>
           <img src={glassesIcon} alt="css"></img>
           <h2>Visão</h2>
           <p>
@@ -25,15 +25,15 @@ const Principles = () => {
             entregar soluções através de conteúdo educativo e serviços de
             excelência.
           </p>
-        </div>
-        <div className="principle">
+        </style.Item>
+        <style.Item>
           <img src={diamountIcon} alt="css"></img>
           <h2>Valores</h2>
           <p>
             Transparência; Responsabilidade; Inovação; Paixão; Colaboração;
             Qualidade; Resultados.
           </p>
-        </div>
+        </style.Item>
       </style.Grid>
     </Container>
   );
