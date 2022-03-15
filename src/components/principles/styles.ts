@@ -22,7 +22,6 @@ export const Item = styled.div`
 
   p {
     width: 70%;
-    font-size: 14px;
   }
 
   @media all and (max-width: 600px) {
