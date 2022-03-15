@@ -19,12 +19,13 @@ const Container = ({ children, bg = "white" }: ContainerProps) => {
 export default Container;
 
 const ContainerStyle = styled.div`
-  width: 100%;
+  margin: auto;
+  width: 80%;
   height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 40px;
 `;
 
 const Div = styled.div<ContainerProps>`
