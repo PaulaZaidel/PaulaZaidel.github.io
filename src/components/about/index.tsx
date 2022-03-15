@@ -10,10 +10,10 @@ const About = () => {
   return (
     <Container>
       <style.Main>
-        <div className="content">
-          <Fade direction="up" cascade>
-            <h1>Sobre mim</h1>
-          </Fade>
+        <Fade direction="up" cascade>
+          <h1>Sobre mim</h1>
+        </Fade>
+        <style.TextColumn className="aside-1">
           <p>
             Sou formada em Sistemas de Informação desde 2017 e apaixonada pela
             tecnologia desde que me lembro por gente, risos.
@@ -71,10 +71,10 @@ const About = () => {
             família e meu espírito “Paula empreendedora” que insiste em procurar
             problemas para levar soluções.
           </p>
-        </div>
-        <div className="image-wrapper">
+        </style.TextColumn>
+        <style.ImageColumn>
           <img src={profileImg} alt="about"></img>
-        </div>
+        </style.ImageColumn>
       </style.Main>
     </Container>
   );
