@@ -15,8 +15,8 @@ function App() {
         <Navbar></Navbar>
         <Header></Header>
         <Quote></Quote>
-        <Principles></Principles>
         <About></About>
+        <Principles></Principles>
         <Skills></Skills>
         <Footer></Footer>
       </Main>
