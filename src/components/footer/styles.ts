@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  width: 80vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
