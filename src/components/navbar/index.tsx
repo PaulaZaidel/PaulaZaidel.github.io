@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <style.Navigation>
       <li className="logo">paulazaidel.dev</li>
-      <li>
+      {/* <li>
         <a href="#">Sobre</a>
       </li>
       <li>
@@ -12,7 +12,7 @@ const Navbar = () => {
       </li>
       <li>
         <a href="#">Contato</a>
-      </li>
+      </li> */}
     </style.Navigation>
   );
 };
