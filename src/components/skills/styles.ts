@@ -1,31 +1,32 @@
 import styled from "styled-components";
 
 export const Grid = styled.div`
-  text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 10vh 30vh;
-  grid-gap: 20px;
-  @include media(">=phone", "<lgphone") {
+  grid-gap: 30px;
+
+  @media all and (max-width: 600px) {
     grid-template-columns: 1fr;
   }
-  @include media(">=lgphone", "<tablet") {
-    grid-template-columns: 1fr;
-  }
-  @include media(">=tablet", "<desktop") {
-    grid-template-columns: 1fr 1fr;
+`;
+
+export const Item = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    height: 3rem;
   }
 
-  .skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    img {
-      height: 3rem;
-    }
+  p {
+    width: 70%;
+  }
+
+  @media all and (max-width: 600px) {
     p {
-      font-size: 14px;
+      width: 100%;
     }
   }
 `;
@@ -34,4 +35,5 @@ export const Header = styled.div`
   text-align: center;
   font-size: 1.7rem;
   line-height: 20px;
+  padding-bottom: 30px;
 `;

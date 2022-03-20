@@ -12,28 +12,28 @@ const Skills = () => {
     <Container>
       <style.Header>
         <Fade direction="up" cascade>
-          <h1>Skills</h1>
+          <h1>Habilidades</h1>
         </Fade>
       </style.Header>
       <style.Grid>
-        <div className="skill">
+        <style.Item>
           <img src={desktopIcon} alt="css"></img>
           <h2>Sistemas Web</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
+            Planeando e desenvolvendo soluções web responsivas para todos os
+            tipos de telas, utilizando as melhores práticas para oferecer e
+            entregar em alta qualidade os projetos.
           </p>
-        </div>
-        <div className="skill">
+        </style.Item>
+        <style.Item>
           <img src={mobileIcon} alt="css"></img>
           <h2>Aplicativos para celular</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
+            Planeando e desenvolvendo aplicações para Android e iOS, utilizando
+            as melhores práticas para oferecer e entregar em alta qualidade os
+            projetos.
           </p>
-        </div>
+        </style.Item>
       </style.Grid>
     </Container>
   );
